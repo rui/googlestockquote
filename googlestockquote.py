@@ -60,7 +60,7 @@ def get_market_cap(symbol):
 def get_percentage_change(symbol):
     return __request(symbol, 'perc_change')
 
-def currency(symbol):
+def get_currency(symbol):
     return __request(symbol, 'currency')
 
 def get_daily_high(symbol):
